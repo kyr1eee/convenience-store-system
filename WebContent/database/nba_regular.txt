@@ -1,0 +1,5 @@
+3	Westbrook	Thunders	25.4	10.1	10.2
+4	Kevin Durant	Warriors	26.4	6.8	5.4
+5	James Harden	Rockets	30.4	5.4	8.8
+2	Anthony Davis	Pelican	28.1	11.1	2.3
+1	Lebron James	Lakers	27.5	8.6	9.1

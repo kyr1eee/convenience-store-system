@@ -1,0 +1,138 @@
+#list {
+    opacity : 0.9;
+    transition : all 0.6s;
+}
+#list h2{
+    font-size:1.3em;
+
+    color : #ffffff;
+    letter-spacing : 3px;
+
+    width : 66%;
+    margin:108px auto 0;
+    background:#009AD7;
+    height:50px;
+    line-height:40px;
+    padding-top:5px;
+}
+.del {
+    color : #fff;
+    display:inline-block;
+    margin: 0px 0px;
+    background: #de5b34;
+    width: 58px;
+    height: 24px;
+    line-height:20px;
+    padding-top:2px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 1px solid #969696;
+    padding-left: 3px;
+    cursor: pointer;
+}
+
+.change {
+    color : #fff;
+    display : inline-block;
+    margin: 0px 0px;
+    background: #81d540;
+    width: 58px;
+    height: 24px;
+    line-height:20px;
+    padding-top:2px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 1px solid #969696;
+    padding-left: 3px;
+    cursor: pointer;
+}
+.del:hover ,.change:hover,#new:hover{
+    transform:scale(1.2);
+    transition: all 0.6s;
+}
+.table_page {
+    width : 66%;
+    margin : 0 auto;
+}
+.table_page table {
+    width : 100%;
+    text-align: center;
+    border:none;
+    border-collapse: separate;
+
+
+}
+.tr_data{
+    background-color:#fff;
+
+}
+tr:nth-child(odd){
+    background:#E9E9E9;
+}
+td {
+    width: 150px;
+    height : 40px;
+
+    overflow: visible;
+}
+a {
+    text-decoration: none;
+}
+.tr_title {
+    //background-color : #23d7e0;
+    height: 60px;
+    font-weight: 600;
+}
+#update ,#getId,#insert{
+    display : none;
+}
+#update,#insert {
+    width : 45%;
+    letter-spacing : 3px;
+    margin: 60px auto;
+}
+#update h3,#insert h3{
+    color :#fff;
+    font-weight : 600;
+    font-style : italic;
+}
+#update input,#insert input {
+    display : block;
+    width : 100%;
+    height : 30px;
+    border : 1px solid #a9a3a3;
+    border-radius : 2%;
+    font-size : 1em;
+    margin-top : 15px;
+}
+.btn {
+    height: 30px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+
+    background-color :transparent;
+    cursor : pointer;
+    transition: all 0.5s;
+}
+.btn:hover{
+    color:#000;
+    background:#dcdcdc;
+    transform: scale(1.2);
+}
+#new {
+    margin: 0px auto;
+    display : inline-block;
+    width: 102px;
+    height: 38px;
+
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+    padding-top: 13px;
+    cursor: pointer;
+
+}

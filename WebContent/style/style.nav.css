@@ -1,0 +1,164 @@
+/*@
+	导航背景样式
+	*/
+body {
+    margin:0;
+    padding:0;
+    background : url(../img/dog.jpg);
+    background-attachment : fixed;
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-position: center center;
+
+}
+
+ul li:hover {
+	transform: scale(1.5);
+    transition: all 0.8s;
+
+}
+a{
+    color : #000;
+}
+#nav_down a {
+    color : #fff;
+    text-decoration: none;
+}
+.nav-bar-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 68px;
+    /*
+    background : url(../img/star.gif);
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-size : 100% 80px;
+    */
+    background-color : #303330;
+    opacity:0.9;
+    z-index: 666;
+    //box-shadow: 6px 6px 40px #000000,-6px -6px 40px #000000;
+}
+.nav_left {
+    position : absolute;
+}
+.nav_left h1{
+    margin : 0;
+    font-size : 3.8em;
+
+    color : #ffffff;
+    letter-spacing : 3px;
+    padding-left : 16px;
+    font-family:VT323;
+    line-height: 60px;
+    padding-top: 4px;
+}
+.nav_right {
+	position : absolute;
+	right : 0;
+	font-size : 1.2em;
+	color:#fff;
+    line-height: 60px;
+    padding-top: 4px;
+}
+
+#myNav  li {
+    color : #fff;
+    width:110px;
+    //border-bottom: 1px solid rgb(190,190,189);
+    //height : 30px;
+    text-align : center;
+    cursor : pointer;
+    letter-spacing : 1px;
+    font-weight : 600;
+    float : right;
+
+}
+
+#myNav {
+    list-style-type:none;
+    position : absolute;
+    width : 440px;
+    left : 50%;
+    transform : translate(-50%);
+    padding:0;
+    margin:0;
+    font-size:1.2em;
+    line-height: 60px;
+    padding-top:4px;
+}
+
+#nav_down {
+
+    visibility:hidden;
+    /*
+    position: absolute;
+    top:68px;
+    left : 50%;
+    transform : translate(-50%);
+    */
+    background-color : #303330;
+    opacity:0.8;
+    overflow: hidden;
+    margin : 0 auto;
+    width:440px;
+    height:160px;
+    font-weight : 600;
+
+}
+#nav_down ul {
+    color : #fff;
+    margin:0;
+    padding:0;
+    float : right;
+    list-style : none;
+    width:110px;
+}
+#nav_down ul li {
+    width : 100%;
+    text-align:center;
+    margin-top : 17px;
+}
+
+.nav-bar-bottom {
+    position: fixed;
+
+    top:68px;
+    width : 100%;
+    height:100%;
+    opacity:0.12;
+    background:url(../img/yellow.gif);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+
+}
+.bg {
+    position: fixed;
+
+    top:0;
+    width : 100%;
+    height:100%;
+
+    background:url(../img/dog.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+#logo {
+	width: 110px;
+    height: 68px;
+    opacity: 0.8;
+    position: absolute;
+    display:none;
+}
+.who {
+    margin:0 230px;
+}
+.date {
+    position:absolute;
+    right : 15px;
+
+    margin:0;
+}

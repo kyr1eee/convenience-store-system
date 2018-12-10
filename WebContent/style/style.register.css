@@ -1,0 +1,54 @@
+.register_page {
+    width : 600px;
+    height : 470px;
+    margin : 140px auto;
+    letter-spacing : 1px;
+    opacity: 0.9;
+    border-radius: 2%;
+    box-shadow: 6px 6px 40px #525f5d, -6px -6px 40px #525f5d;
+    background-color: rgb(226, 224, 225);
+    visibility: hidden;
+}
+.register_page h2 {
+    margin: 15px 25px;
+    //font-style : italic;
+    color : #625f5f;
+    letter-spacing : 3px;
+
+}
+.form_group {
+    width: 100%;
+    margin-left:25px;
+    height: 75px;
+}
+.r_input {
+    width: 70%;
+    height : 30px;
+    border : 2px solid #7c8586;
+    border-radius : 2%;
+    font-size : 1em;
+    padding-left : 6px;
+}
+#create {
+    width: 71.6%;
+    height: 36px;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #6b6969;
+    background-color :transparent;
+    cursor : pointer;
+    transition : all 0.5s;
+}
+#create:hover{
+    transform: scale(1.1);
+    color :#252525;
+}
+.tips {
+    font-size : 0.9em;
+    letter-spacing : 0;
+    margin:0;
+    padding: 4px 0;
+    color : rgb(240, 3, 3);
+    font-weight: 600;
+}

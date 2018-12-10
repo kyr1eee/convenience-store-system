@@ -1,0 +1,109 @@
+#list {
+    opacity : 0.9;
+    transition : all 0.6s;
+}
+#list h2{
+    font-size:2em;
+    font-style : italic;
+    color : #50ced4;
+    letter-spacing : 3px;
+    margin-top : 70px;
+}
+.del {
+    margin: 0px 0px;
+    background: #de5b34;
+    width: 58px;
+    height: 20px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 1px solid #000;
+    padding-left: 3px;
+    cursor: pointer;
+}
+.change {
+    margin: 0px 0px;
+    background: #81d540;
+    width: 58px;
+    height: 20px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 1px solid #000;
+    padding-left: 3px;
+    cursor: pointer;
+}
+
+.table_page {
+    width: 563px;
+    margin: 30px auto;
+}
+.table_page table {
+    width :100%;
+    text-align: center;
+    border:none;
+
+}
+.tr_data{
+    background-color:#fff;
+
+}
+td {
+    width: 150px;
+    height : 40px;
+    border: 1px solid #479dbe;
+    overflow: visible;
+}
+a {
+    text-decoration: none;
+}
+.tr_title {
+    background-color : #23d7e0;
+    height: 60px;
+    font-weight: 600;
+}
+#update ,#getId,#insert{
+    display : none;
+}
+#update,#insert {
+    width : 100%;
+    letter-spacing : 3px;
+    margin-top : 60px;
+}
+#update h3,#insert h3{
+    color :#fff;
+    font-weight : 600;
+    font-style : italic;
+}
+#update input,#insert input {
+    display : block;
+    width : 100%;
+    height : 30px;
+    border : 2px solid #7c8586;
+    border-radius : 2%;
+    font-size : 1em;
+    margin-top : 15px;
+}
+.btn {
+    height: 30px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+    border: 4px solid rgb(49, 71, 89);
+    background-color :rgb(21, 40, 56);
+    cursor : pointer;
+}
+#new {
+    margin: 0px 0px;
+    background: #d7da33;
+    width: 107px;
+    height: 38px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 1px solid #000;
+    padding-top: 10px;
+    cursor: pointer;
+    float : right;
+}

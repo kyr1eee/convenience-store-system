@@ -1,0 +1,38 @@
+.page {
+	position : fixed;
+	bottom:1%;
+	margin : 0;
+	padding: 0;
+	list-style-type : none;
+	margin: 20px auto;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.page li {
+	float : left;
+	margin-left : 1em;
+}
+
+.page a {
+	display : block;
+	padding : 0.3em 0.6em;
+	text-decoration : none;
+	font-size : 1em;
+	font-weight : bold;
+	color : #ffffff;
+	background-color : transparent;
+	border : 1px solid rgb(221, 221, 221);
+	//box-shadow : 1px 1px 5px rgb(55,55,55),-1px -1px 5px rgb(55,55,55);
+}
+
+.page a:hover, .page a:focus,.page a:visited{
+
+	color : #000;
+	background:#dcdcdc;
+	transform : scale(1.2);
+    cursor : pointer;
+	transition: all 0.6s;
+}
+
